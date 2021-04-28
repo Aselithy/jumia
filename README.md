@@ -22,7 +22,8 @@ docker build -t country-phone .
 
 Run Docker image:
 ```
-docker run -p 8080:8080 country-phone
+docker run -d -p 8080:8080 --name country-phone-container country-phone:latest
+
 ```
 
 ## Technologies
